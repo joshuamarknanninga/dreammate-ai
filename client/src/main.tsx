@@ -5,7 +5,7 @@ import App from './App';
 import './styles.css';
 import { registerSW } from './register-sw';
 
-// Register SW (no-op in dev; see register-sw.ts guard)
+// Register SW (no-op in dev; cleans caches/old SW)
 registerSW();
 
 const rootEl = document.getElementById('root');
